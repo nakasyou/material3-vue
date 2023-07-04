@@ -1,0 +1,20 @@
+{
+  "name": "material3-vue",
+  "version": "0.1.0",
+  "description": "Material desigin 3 on Vue.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Shoraro Nakamura",
+  "license": "Apache-2.0",
+  "type": "module",
+  "files": ["dist"],
+  "main": "./dist/material3-vue.mjs",
+  "module": "./dist/material3-vue.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/my-lib.js",
+      "umd": "./dist/material3-vue.umd.js",
+      "browser": "./dist/material3-vue.iife.js"
+    }
+  }
+}
