@@ -1,6 +1,6 @@
 {
   "name": "material3-vue",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Material desigin 3 on Vue.js",
   "scripts": {},
   "keywords": [],
@@ -10,11 +10,13 @@
   "files": ["dist"],
   "main": "./dist/material3-vue.mjs",
   "module": "./dist/material3-vue.mjs",
+  "types": "./dist/material3-vue.d.ts",
   "exports": {
     ".": {
       "import": "./dist/my-lib.js",
       "umd": "./dist/material3-vue.umd.js",
-      "browser": "./dist/material3-vue.iife.js"
+      "browser": "./dist/material3-vue.iife.js",
+      "types": "./dist/material3-vue.d.ts"
     }
   }
 }

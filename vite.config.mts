@@ -11,8 +11,17 @@ export default defineConfig({
       entry: './lib/main.ts',
       name: 'Material3Vue',
       fileName: 'material3-vue',
-      formats: ["es", "umd", "iife"]
+      formats: ["es", "umd", "iife"],
     },
     outDir: './dist/dist',
+    rollupOptions: {
+      external: ['vue'],
+      output: {
+        globals: {
+          vue: 'Vue',
+        },
+      },
+    },
+    emptyOutDir: false,
   },
 })

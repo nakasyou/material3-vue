@@ -1,7 +1,10 @@
 import getComponents from "./get-components/mod.ts"
 import camelToKebab from "./utils/camel-to-kebab.ts"
 import camelToPascal from "./utils/camel-to-pascal.ts"
+
+// for Deno node_modules
 import "npm:@material/web/button/filled-button.js"
+
 // make tmp dir
 await Deno.mkdir("./tmp", {
   recursive: true
@@ -31,3 +34,5 @@ const kebabComponentNames = componentNames.map(camelToKebab)
 await Deno.writeTextFile("./tmp/components/index.ts", componentNames.map((componentName, index) => {
   return `export { default as ${componentName} } from "./${kebabComponentNames[index]}.vue";`
 }).join("\n"))
+
+await Deno.writeTextFile("./dist/dist/material3-vue.d.ts","import { type Component } from 'vue';\n"+componentNames.map(componentName=>`declare const ${componentName}: Component;`).join("\n"))

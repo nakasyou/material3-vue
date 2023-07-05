@@ -30,9 +30,12 @@
     "specifiers": {
       "@material/web": "@material/web@1.0.0-pre.12",
       "@vitejs/plugin-vue@^4.2.3": "@vitejs/plugin-vue@4.2.3_vite@4.3.9_vue@3.3.4",
+      "@vue/tsconfig": "@vue/tsconfig@0.4.0",
       "create-vite-extra": "create-vite-extra@1.1.0",
       "postcss": "postcss@8.4.24",
       "postcss-js": "postcss-js@4.0.1_postcss@8.4.24",
+      "tsc": "tsc@2.0.4",
+      "typescript": "typescript@5.0.4",
       "vite": "vite@4.3.9",
       "vite@^4.3.9": "vite@4.3.9",
       "vue@^3.3.4": "vue@3.3.4"
@@ -244,6 +247,10 @@
         "integrity": "sha512-7OjdcV8vQ74eiz1TZLzZP4JwqM5fA94K6yntPS5Z25r9HDuGNzaGdgvwKYq6S+MxwF0TFRwe50fIR/MYnakdkQ==",
         "dependencies": {}
       },
+      "@vue/tsconfig@0.4.0": {
+        "integrity": "sha512-CPuIReonid9+zOG/CGTT05FXrPYATEqoDGNrEaqS4hwcw5BUNM2FguC0mOwJD4Jr16UpRVl9N0pY3P+srIbqmg==",
+        "dependencies": {}
+      },
       "camelcase-css@2.0.1": {
         "integrity": "sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==",
         "dependencies": {}
@@ -383,8 +390,16 @@
         "integrity": "sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==",
         "dependencies": {}
       },
+      "tsc@2.0.4": {
+        "integrity": "sha512-fzoSieZI5KKJVBYGvwbVZs/J5za84f2lSTLPYf6AGiIf43tZ3GNrI1QzTLcjtyDDP4aLxd46RTZq1nQxe7+k5Q==",
+        "dependencies": {}
+      },
       "tslib@2.6.0": {
         "integrity": "sha512-7At1WUettjcSRHXCyYtTselblcHl9PJFFVKiCAy/bY97+BPZXSQ2wbq0P9s8tK2G7dFQfNnlJnPAiArVBVBsfA==",
+        "dependencies": {}
+      },
+      "typescript@5.0.4": {
+        "integrity": "sha512-cW9T5W9xY37cc+jfEnaUvX91foxtHkza3Nw3wkoF4sSlKn0MONdkdEndig/qPBWXNkmplh3NzayQzCiHM4/hqw==",
         "dependencies": {}
       },
       "vite@4.3.9": {
